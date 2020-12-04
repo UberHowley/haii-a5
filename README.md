@@ -5,10 +5,11 @@ This week, in addition to Anaconda Python 3.6 (or greater) with Jupyter Notebook
 * `skimage` # pip install scikit-image (possibly `pip install --upgrade scikit-image`)
   * If getting this error: `ERROR: Cannot uninstall '___'. It is a distutils installed project and thus we cannot accurately determine which files belong to it which would lead to only a partial uninstall.`, then the easiest approach might be to temporarily downgrade to pip version 9 (`pip install --upgrade --force-reinstall pip==9.0.3`) and then try again. If you don't wish to downgrade pip, then you'll need to manually go to site-packages and remove the module that cannot be uninstalled automatically and try upgrading again.
 * `tensorflow` 1.15 # pip install tensorflow==1.15
+  * If getting this error: `ERROR: Could not find a version that satisfies the requirement tensorflow==1.15`, you likely have python version 3.8 or later, which requires tensorflow 2.2 or later (Iris is using Python 3.6.4). You may need to downgrade your python version (this would be a great use case for a [virtual environment in python](https://docs.python.org/3/tutorial/venv.html) or a [new anaconda environment](https://conda.io/projects/conda/en/latest/user-guide/tasks/manage-environments.html) with `conda create -n myenv python=3.6` and `source activate myenv`.
 * `tensorflow_hub` # pip install tensorflow_hub
 * `cv2` # pip install opencv-python
 
-Install Anaconda Python 3.6 (or greater) if you haven't already. [https://www.anaconda.com/distribution/](https://www.anaconda.com/distribution/) You'll need Jupyter Notebook, and scipy, at the very least.
+Install Anaconda Python 3.6-3.7 if you haven't already. [https://www.anaconda.com/distribution/](https://www.anaconda.com/distribution/) You'll need Jupyter Notebook, and scipy, at the very least.
 
 ## Step #2 Download homework files
 Download all the files in this repository. Place these files into a well-named folder on your computer, and click on the zip file to unzip the data folder. You will zip all the files in this directory and submit the `.zip` file to Glow when completed.
