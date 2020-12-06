@@ -7,6 +7,7 @@ This week, in addition to Anaconda Python 3.6 (or greater) with Jupyter Notebook
     * `pip install -- user ipykernel`
     * `python -m ipykernel install --user --name=myenv`
     * Then [change your kernel inside the Jupyter notebook to be `myenv`](https://medium.com/@nrk25693/how-to-add-your-conda-environment-to-your-jupyter-notebook-in-just-4-steps-abeab8b8d084)
+  * If using Google Colab, will likely need `!pip install tensorflow==1.15` to specify which version of tensorflow to use.
 * `tensorflow_hub` # pip install tensorflow_hub
 * `skimage` # pip install scikit-image (possibly `pip install --upgrade scikit-image`)
   * If getting this error: `ERROR: Cannot uninstall '___'. It is a distutils installed project and thus we cannot accurately determine which files belong to it which would lead to only a partial uninstall.`, then the easiest approach might be to temporarily downgrade to pip version 9 (`pip install --upgrade --force-reinstall pip==9.0.3`) and then try again. If you don't wish to downgrade pip, then you'll need to manually go to site-packages and remove the module that cannot be uninstalled automatically and try upgrading again.
