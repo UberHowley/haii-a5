@@ -6,7 +6,7 @@ This week, in addition to Anaconda Python 3.6 (or greater) with Jupyter Notebook
   * If getting this error: `ERROR: Could not find a version that satisfies the requirement tensorflow==1.15`, you likely have python version 3.8 or later, which requires tensorflow 2.2 or later (Iris is using Python 3.6.4). You may need to downgrade your python version (this would be a great use case for a [virtual environment in python](https://docs.python.org/3/tutorial/venv.html) or a [new anaconda environment](https://conda.io/projects/conda/en/latest/user-guide/tasks/manage-environments.html) with `conda create -n myenv python=3.6` and `source activate myenv`. You'll still need some extra steps to get Jupyter notebooks to use your environment `myenv`:
     * `pip install -- user ipykernel`
     * `python -m ipykernel install --user --name=myenv`
-    * Then change your kernel inside the Jupyter notebook to be `myenv`
+    * Then [change your kernel inside the Jupyter notebook to be `myenv`](https://medium.com/@nrk25693/how-to-add-your-conda-environment-to-your-jupyter-notebook-in-just-4-steps-abeab8b8d084)
 * `tensorflow_hub` # pip install tensorflow_hub
 * `skimage` # pip install scikit-image (possibly `pip install --upgrade scikit-image`)
   * If getting this error: `ERROR: Cannot uninstall '___'. It is a distutils installed project and thus we cannot accurately determine which files belong to it which would lead to only a partial uninstall.`, then the easiest approach might be to temporarily downgrade to pip version 9 (`pip install --upgrade --force-reinstall pip==9.0.3`) and then try again. If you don't wish to downgrade pip, then you'll need to manually go to site-packages and remove the module that cannot be uninstalled automatically and try upgrading again.
