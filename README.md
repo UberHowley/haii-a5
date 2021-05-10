@@ -4,20 +4,20 @@
 The goal of this assignment is to give you hands-on experience with various techniques for generating images using computer vision + machine learning (CVML) techniques… with dogs.
 
 ## Step #0 Use Google Colab
-For a variety of reasons, this assignment is more approachable using Google Colab (Google's version of Jupyter notebooks). Instructions below assume use of Google Colab. However, this assignment has been set-up so you should not need to upload any external data files, so everything should be ready to run. 
+For a variety of reasons, this assignment is more approachable using Google Colab (Google's version of Jupyter notebooks). Instructions below assume use of Google Colab. However, this assignment has been set-up so you should not need to upload any external data files, so everything should be ready to run.
 
-## Step #1 Ensure you have all programming modules
-This week, our installation could be a bit tricky. We need:
+## Step #1 Watch the Google Colab instructional video
+If you haven't already, make sure you watch the Google Colab instructional video, linked in the Glow assignment.
+
+## Step #2 Ensure you have all programming modules
+This week, our installation could be a bit tricky. The code to install and import everything you need is already in the Google Colab. We need:
 * _scikit-image_ # `!pip install scikit-image`
 * _tensorflow 1.15)_ # `!pip install tensorflow==1.15`
   * If getting this error: `ERROR: Could not find a version that satisfies the requirement tensorflow==1.15`, you likely have python version 3.8 or later, which requires tensorflow 2.2 or later (Iris is using Python 3.6.4). You may need to downgrade your python version.  (we can enforce the Python version in Google Colab by clicking Runtime -> Change Runtime Type).
 * _tensorflow_hub_ # `!pip install tensorflow_hub`
 * _opencv-python_ # `!pip install opencv-python`
 
-We'll also need to import additional modules available in Google Colab, including: BytesIO, IPython.display, numpy, urllib, PIL, scipy.stats, scipy.misc, requests, tqdm, random, and cv2. The code to install and import everything you need is already in the Google Colab.
-
-## Step #2 Watch the Google Colab instructional video
-If you haven't already, make sure you watch the Google Colab instructional video, linked in the Glow assignment.
+We'll also need to import additional modules available in Google Colab, including: BytesIO, IPython.display, numpy, urllib, PIL, scipy.stats, scipy.misc, requests, tqdm, random, and cv2. 
 
 ## Step #3 Access homework files via Google Colab
 You can access any public GitHub Jupyter Notebook on Google Colab by replacing the `github.com` in the URL with `colab.research.google.com/github`, like so: `[https://colab.research.google.com/github/UberHowley/haii-a5/blob/main/Dog_Image_Generation.ipynb](https://colab.research.google.com/github/UberHowley/haii-a5/blob/main/Dog_Image_Generation.ipynb)`.
