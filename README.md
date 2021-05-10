@@ -23,7 +23,7 @@ This week, our installation could be a bit tricky. The code to install and impor
 We'll also need to import additional modules available in Google Colab, including: BytesIO, IPython.display, numpy, urllib, PIL, scipy.stats, scipy.misc, requests, tqdm, random, and cv2. 
 
 ### Step #3 Access homework files via Google Colab
-You can access any public GitHub Jupyter Notebook on Google Colab by replacing the `github.com` in the URL with `colab.research.google.com/github`, like so: `[https://colab.research.google.com/github/UberHowley/haii-a5/blob/main/Dog_Image_Generation.ipynb](https://colab.research.google.com/github/UberHowley/haii-a5/blob/main/Dog_Image_Generation.ipynb)`.
+You can access any public GitHub Jupyter Notebook on Google Colab by replacing the `github.com` in the URL with `colab.research.google.com/github`, like so: [`https://colab.research.google.com/github/UberHowley/haii-a5/blob/main/Dog_Image_Generation.ipynb`](https://colab.research.google.com/github/UberHowley/haii-a5/blob/main/Dog_Image_Generation.ipynb).
 
 ### Step #4 Jump through the Google hoops
 If you've watched the Google Colab instructional video, you know there's a couple hiccups to get through before you can work on the Colab. Follow those steps, and you should be ready to get going! Remember:
