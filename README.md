@@ -16,7 +16,7 @@ If you haven't already, make sure you watch the Google Colab instructional video
 This week, our installation could be a bit tricky. The code to install and import everything you need is already in the Google Colab. We need:
 * _scikit-image_ # `!pip install scikit-image`
 * _tensorflow 1.15)_ # `!pip install tensorflow==1.15`
-  * If getting this error: `ERROR: Could not find a version that satisfies the requirement tensorflow==1.15`, you likely have python version 3.8 or later, which requires tensorflow 2.2 or later (As of writing, should be Python 3.7.1). You may need to downgrade your python version.  (we can enforce the Python version in Google Colab by clicking Runtime -> Change Runtime Type).
+  * If getting this error: `ERROR: Could not find a version that satisfies the requirement tensorflow==1.15`, you likely have python version 3.8 or later, which requires tensorflow 2.2 or later (as of writing, Colab uses Python 3.7.1). You may need to downgrade your python version (we can enforce the Python version in Google Colab by clicking Runtime -> Change Runtime Type).
 * _tensorflow_hub_ # `!pip install tensorflow_hub`
 * _opencv-python_ # `!pip install opencv-python`
 
@@ -30,7 +30,7 @@ If you've watched the Google Colab instructional video, you know there's a coupl
 * Google Colab has a tendency to 'collapse' cells, make sure you uncollapse all the cells!
 * Your runtime will expire when you idle, making it so you have to re-run all your cells, so try not to idle at an inconvenient place in the notebook. Much of this code can take a long time to run!
 * Save often!
-* You can export your Google Colab as a `.ipynb` file!
+* You can download your Google Colab as a `.ipynb` file
 
 ## Part B: Dog Generation (85% effort)
 
