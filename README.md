@@ -14,11 +14,11 @@ If you haven't already, make sure you watch the Google Colab instructional video
 
 ### Step #2 Ensure you have all programming modules 
 This week, our installation could be a bit tricky. The code to install and import everything you need is already in the Google Colab. We need:
-* _scikit-image_ # `!pip install scikit-image`
-* _tensorflow 1.15)_ # `!pip install tensorflow==1.15`
+* _scikit-image_ `!pip install scikit-image`
+* _tensorflow 1.15_ `!pip install tensorflow==1.15`
   * If getting this error: `ERROR: Could not find a version that satisfies the requirement tensorflow==1.15`, you likely have python version 3.8 or later, which requires tensorflow 2.2 or later (as of writing, Colab uses Python 3.7.1). You may need to downgrade your python version (we can enforce the Python version in Google Colab by clicking Runtime -> Change Runtime Type).
-* _tensorflow_hub_ # `!pip install tensorflow_hub`
-* _opencv-python_ # `!pip install opencv-python`
+* _tensorflow_hub_ `!pip install tensorflow_hub`
+* _opencv-python_ `!pip install opencv-python`
 
 We'll also need to import additional modules available in Google Colab, including: BytesIO, IPython.display, numpy, urllib, PIL, scipy.stats, scipy.misc, requests, tqdm, random, and cv2. 
 
