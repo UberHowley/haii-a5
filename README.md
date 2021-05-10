@@ -12,7 +12,7 @@ For a variety of reasons, this assignment is more approachable using Google Cola
 ### Step #1 Watch the Google Colab instructional video
 If you haven't already, make sure you watch the Google Colab instructional video, linked in the Glow assignment.
 
-### Step #2 Ensure you have all programming modules (15% effort)
+### Step #2 Ensure you have all programming modules 
 This week, our installation could be a bit tricky. The code to install and import everything you need is already in the Google Colab. We need:
 * _scikit-image_ # `!pip install scikit-image`
 * _tensorflow 1.15)_ # `!pip install tensorflow==1.15`
