@@ -16,7 +16,7 @@ If you haven't already, make sure you watch the Google Colab instructional video
 This week, our installation could be a bit tricky. The code to install and import everything you need is already in the Google Colab. We need:
 * _scikit-image_ # `!pip install scikit-image`
 * _tensorflow 1.15)_ # `!pip install tensorflow==1.15`
-  * If getting this error: `ERROR: Could not find a version that satisfies the requirement tensorflow==1.15`, you likely have python version 3.8 or later, which requires tensorflow 2.2 or later (Iris is using Python 3.6.4). You may need to downgrade your python version.  (we can enforce the Python version in Google Colab by clicking Runtime -> Change Runtime Type).
+  * If getting this error: `ERROR: Could not find a version that satisfies the requirement tensorflow==1.15`, you likely have python version 3.8 or later, which requires tensorflow 2.2 or later (As of writing, should be Python 3.7.1). You may need to downgrade your python version.  (we can enforce the Python version in Google Colab by clicking Runtime -> Change Runtime Type).
 * _tensorflow_hub_ # `!pip install tensorflow_hub`
 * _opencv-python_ # `!pip install opencv-python`
 
