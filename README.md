@@ -38,9 +38,7 @@ If you've watched the Google Colab instructional video, you know there's a coupl
 Follow the instructions within the notebook. Remember, the course disucssion forums and Student Help Hours are there to help you out!
 
 ## Part C: Turn it in
-Once you've completed all of the above, you're done with this project! As always, clean up your code and ensure your entire Notebook runs before submitting, Iris must be able to run your notebook on her machine.
-
-Once you think everything is set, export your Colab as a .ipnyb, and please set the filename to `[yourunixID]_haii21[assignmentnumber].ipynb`, e.g., `ikh1_haii21a5.ipynb` and then submit your notebook via Glow.
+Once you've completed all of the above, you're done with this project! Follow the submission instructions from within the notebook.
 
 # Google Colab
 If you haven't used Google Colab before, a good first step for you would be to read [Google's Welcome to Colaboratory](https://colab.research.google.com/notebooks/intro.ipynb?utm_source=scs-index) and take the User Interface Tour in the Jupyter notebook Help menu once you've opened your first Jupyter Notebook.
