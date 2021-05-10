@@ -1,4 +1,4 @@
-# Assignment #5 Setup Instructions
+# Assignment #5 Instructions
 ** Please note: Do not post your code/assignments publicly.**
 
 The goal of this assignment is to give you hands-on experience with various techniques for generating images using computer vision + machine learning (CVML) techniques… with dogs.
