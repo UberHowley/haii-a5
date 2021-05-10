@@ -28,9 +28,9 @@ You can access any public GitHub Jupyter Notebook on Google Colab by replacing t
 ### Step #4 Jump through the Google hoops
 If you've watched the Google Colab instructional video, you know there's a couple hiccups to get through before you can work on the Colab. Follow those steps, and you should be ready to get going! Remember:
 * Google Colab has a tendency to 'collapse' cells, make sure you uncollapse all the cells!
-* Your runtime will expire when you idle, making it so you have to re-run all your cells, so try not to idle at an inconvenient place in the notebook. Much of this code can take a long time to run!
+* Your runtime will expire when you idle, making it so you have to re-run all your cells, so try not to idle at an inconvenient place in the notebook. Much of this code can take a long time to run.
 * Save often!
-* You can download your Google Colab as a `.ipynb` file
+* You can download your Google Colab as a `.ipynb` file.
 
 ## Part B: Dog Generation (85% effort)
 
