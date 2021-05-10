@@ -3,13 +3,16 @@
 
 The goal of this assignment is to give you hands-on experience with various techniques for generating images using computer vision + machine learning (CVML) techniques… with dogs.
 
-## Step #0 Use Google Colab
+
+## Part A: tool setup (15% effort)
+
+### Step #0 Use Google Colab
 For a variety of reasons, this assignment is more approachable using Google Colab (Google's version of Jupyter notebooks). Instructions below assume use of Google Colab. However, this assignment has been set-up so you should not need to upload any external data files, so everything should be ready to run.
 
-## Step #1 Watch the Google Colab instructional video
+### Step #1 Watch the Google Colab instructional video
 If you haven't already, make sure you watch the Google Colab instructional video, linked in the Glow assignment.
 
-## Step #2 Ensure you have all programming modules
+### Step #2 Ensure you have all programming modules (15% effort)
 This week, our installation could be a bit tricky. The code to install and import everything you need is already in the Google Colab. We need:
 * _scikit-image_ # `!pip install scikit-image`
 * _tensorflow 1.15)_ # `!pip install tensorflow==1.15`
@@ -19,20 +22,22 @@ This week, our installation could be a bit tricky. The code to install and impor
 
 We'll also need to import additional modules available in Google Colab, including: BytesIO, IPython.display, numpy, urllib, PIL, scipy.stats, scipy.misc, requests, tqdm, random, and cv2. 
 
-## Step #3 Access homework files via Google Colab
+### Step #3 Access homework files via Google Colab
 You can access any public GitHub Jupyter Notebook on Google Colab by replacing the `github.com` in the URL with `colab.research.google.com/github`, like so: `[https://colab.research.google.com/github/UberHowley/haii-a5/blob/main/Dog_Image_Generation.ipynb](https://colab.research.google.com/github/UberHowley/haii-a5/blob/main/Dog_Image_Generation.ipynb)`.
 
-## Step #4 Jump through the Google hoops
+### Step #4 Jump through the Google hoops
 If you've watched the Google Colab instructional video, you know there's a couple hiccups to get through before you can work on the Colab. Follow those steps, and you should be ready to get going! Remember:
 * Google Colab has a tendency to 'collapse' cells, make sure you uncollapse all the cells!
 * Your runtime will expire when you idle, making it so you have to re-run all your cells, so try not to idle at an inconvenient place in the notebook. Much of this code can take a long time to run!
 * Save often!
 * You can export your Google Colab as a `.ipynb` file!
 
-## Step #5 Get going!
+## Part B: Dog Generation (85% effort)
+
+### Step #5 Get going!
 Follow the instructions within the notebook. Remember, the course disucssion forums and Student Help Hours are there to help you out!
 
-## Step #6 Turn it in
+## Part C: Turn it in
 Once you've completed all of the above, you're done with this project! As always, clean up your code and ensure your entire Notebook runs before submitting, Iris must be able to run your notebook on her machine.
 
 Once you think everything is set, export your Colab as a .ipnyb, and please set the filename to `[yourunixID]_haii21[assignmentnumber].ipynb`, e.g., `ikh1_haii21a5.ipynb` and then submit your notebook via Glow.
