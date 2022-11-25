@@ -4,7 +4,7 @@
 The goal of this assignment is to give you hands-on experience with various techniques for generating images using computer vision + machine learning (CVML) techniques… with dogs.
 
 
-## Part A: tool setup (15% effort)
+## Part A: tool setup 
 
 ### Step #0 Use Google Colab
 For a variety of reasons, this assignment is more approachable using Google Colab (Google's version of Jupyter notebooks). Instructions below assume use of Google Colab. However, this assignment has been set-up so you should not need to upload any external data files, so everything should be ready to run.
@@ -13,7 +13,7 @@ For a variety of reasons, this assignment is more approachable using Google Cola
 If you haven't already, make sure you watch the Google Colab instructional video, linked in the Glow assignment.
 
 ### Step #2 Ensure you have all programming modules 
-This week, our installation could be a bit tricky. The code to install and import everything you need is already in the Google Colab. We need:
+The code to install and import everything you need is already in the Google Colab. However, for thoroughness (and for the adventurous who wish to set this up in their own environments), we need:
 * _scikit-image_ `!pip install scikit-image`
 * _tensorflow 1.15_ `!pip install tensorflow==1.15`
   * If getting this error: `ERROR: Could not find a version that satisfies the requirement tensorflow==1.15`, you likely have python version 3.8 or later, which requires tensorflow 2.2 or later (as of writing, Colab uses Python 3.7.1). You may need to downgrade your python version (we can enforce the Python version in Google Colab by clicking Runtime -> Change Runtime Type).
@@ -32,7 +32,7 @@ If you've watched the Google Colab instructional video, you know there's a coupl
 * Save often!
 * You can download your Google Colab as a `.ipynb` file.
 
-## Part B: Dog Generation (85% effort)
+## Part B: Dog Generation
 
 ### Step #5 Get going!
 Follow the instructions within the notebook. Remember, the course disucssion forums and Student Help Hours are there to help you out!
