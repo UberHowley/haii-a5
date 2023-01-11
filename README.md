@@ -1,7 +1,7 @@
 # Assignment #5 Instructions
-** Please note: Do not post your code/assignments publicly.**
+**Please note: Do not post your code/assignments publicly.**
 
-The goal of this assignment is to give you hands-on experience with various techniques for generating images using computer vision + machine learning (CVML) techniques… with dogs.
+The goal of this assignment is to give you hands-on experience with various techniques for generating images using computer vision + machine learning (CVML) techniques… with dogs. At the end, you write an essay that connects several of the topics from across the course with the topics within this assignment.
 
 
 ## Part A: tool setup 
@@ -15,12 +15,11 @@ If you haven't already, make sure you watch the Google Colab instructional video
 ### Step #2 Ensure you have all programming modules 
 The code to install and import everything you need is already in the Google Colab. However, for thoroughness (and for the adventurous who wish to set this up in their own environments), we need:
 * _scikit-image_ `!pip install scikit-image`
-* _tensorflow 1.15_ `!pip install tensorflow==1.15`
-  * If getting this error: `ERROR: Could not find a version that satisfies the requirement tensorflow==1.15`, you likely have python version 3.8 or later, which requires tensorflow 2.2 or later (as of writing, Colab uses Python 3.7.1). You may need to downgrade your python version (we can enforce the Python version in Google Colab by clicking Runtime -> Change Runtime Type).
-* _tensorflow_hub_ `!pip install tensorflow_hub`
+* _tensorflow_ `!pip install tensorflow`
+* _tensorflow-hub_ `!pip install tensorflow-hub`
 * _opencv-python_ `!pip install opencv-python`
 
-We'll also need to import additional modules available in Google Colab, including: BytesIO, IPython.display, numpy, urllib, PIL, scipy.stats, scipy.misc, requests, tqdm, random, and cv2. 
+We'll also need to import additional modules available in Google Colab, including: BytesIO, IPython.display, numpy, urllib, PIL, scipy.stats, scipy.misc, random, requests, tqdm, and cv2. 
 
 ### Step #3 Access homework files via Google Colab
 You can access any public GitHub Jupyter Notebook on Google Colab by replacing the `github.com` in the URL with `colab.research.google.com/github`, like so: [`https://colab.research.google.com/github/UberHowley/haii-a5/blob/main/Dog_Image_Generation.ipynb`](https://colab.research.google.com/github/UberHowley/haii-a5/blob/main/Dog_Image_Generation.ipynb).
